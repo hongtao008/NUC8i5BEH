@@ -5,10 +5,10 @@
 ### Supported macOS versions
 + macOS Mojave 10.14.6
 + macOS Catalina 10.15.7（我正在使用的版本）
-+ macOS Big Sur 11.x.x
++ macOS Big Sur 11.x
 
 ### 配置
-+ OS: macOS Catalina 10.15.7 19H1030 x86_64 / Macmini8,1
++ OS: macOS Catalina 10.15.7 19H1217 x86_64 / Macmini8,1
 + OpenCore: 0.6.8
 + CPU: Intel® Core™ i5-8259U Processor (6M Cache, up to 3.80 GHz)
 + SSD: 500GB [KONKA K550](https://union-click.jd.com/jdc?e=&p=AyIGZRheHQMRBFATUhMyEgZUGloTARsHXBxZJUZNXwtEa0xHV0YXEEULWldTCQQHCllHGAdFBwtEQkQBBRxNVlQYBUkeTVxNCRNLGEF6RwtVGloUAxQEXBtSEgAieAoSDE9wdk8wYAsSQmB4LlwJXl5nQVkXaxQyEgZUGlkRAxYDVStrFQUiRTvP0JPXnoWAleDCq7zf5LCCipwiBmUbXBQBGgRUGlsSChcBZRxbHDLLmdPP9ox3dtPHmo%2B0vcSj%2FcLCpDIiN1YrayUCIgRlWTUUV0IPAB9ZFwYbDgceXxZRQgUGGw9FVxcGAhJZEAEQA2UZWhQGGw%3D%3D)
@@ -35,7 +35,7 @@
 将 **EFI** 和 **NUC8_MacOnlineInstaller** 放入FAT32 U盘根目录，执行**NUC8_MacOnlineInstaller**中的run脚本，完成后使用U盘开机即可安装
 
 ### 修改三码以激活iMessage/FaceTime
-macOS系统安装完成后，请使用[Hackintool]()生成**Serial Number**, **Board Serial Number** 和 **SmUUID**，并在*config.plist*中替换它们。
+macOS系统安装完成后，请使用[Hackintool](https://github.com/headkaze/Hackintool)生成**Serial Number**, **Board Serial Number** 和 **SmUUID**，并在*config.plist*中替换它们。
 
 在[https://checkcoverage.apple.com](https://checkcoverage.apple.com)查询你的**Serial Number**，并确保查询结果如下图所示，否则继续摇号。
 
